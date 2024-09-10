@@ -22,7 +22,10 @@ const ProjectPage = () => {
           <div className="card-body">
             <p className="flex flex-col">
               <h3 className="card-title">{data.name}</h3>
-              {data.age +  data.email}
+              {data.age }
+            </p>
+            <p>
+              {data.email}
             </p>
           </div>
         </div>
