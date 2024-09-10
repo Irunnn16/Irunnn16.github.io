@@ -15,7 +15,7 @@ const ProjectPage = () => {
 
     <div className="masonry">
       {datas.map(data => (
-        <div className="card-masonry bg-base-200 hover:scale-105" key={data.id}>
+        <div className="card-masonry-item bg-base-200 hover:scale-105" key={data.id}>
           <figure className="aspect-video w-full">
             <img src="https://robohash.org/${data.name}" alt=""  />
           </figure>
